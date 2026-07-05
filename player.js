@@ -33,7 +33,7 @@ norway:{name:"David Moller Wolfe",number:5}
 {
 ticket:6,
 brazil:{name:"Bruno Guimaraes",number:8},
-norway:{name:"Patrick Berg",number:6}
+norway:{name:"Fredrik Bjorkan",number:15}
 },
 
 {
