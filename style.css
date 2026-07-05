@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial,sans-serif;
+    background:#ececec;
+}
+
+h1{
+    text-align:center;
+    color:#0b3d91;
+    margin-bottom:5px;
+}
+
+h3{
+    text-align:center;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.unlock{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+input{
+    padding:12px;
+    width:220px;
+    border-radius:8px;
+    border:2px solid #0b3d91;
+    font-size:16px;
+}
+
+button{
+    padding:12px 20px;
+    margin-left:8px;
+    border:none;
+    border-radius:8px;
+    background:#0b3d91;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#06265c;
+}
+
+#status{
+    margin-top:12px;
+    font-weight:bold;
+}
+
+#tickets{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.ticket{
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    overflow:hidden;
+}
+
+.ticketHeader{
+    background:#0b3d91;
+    color:white;
+    padding:12px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.locked{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.ticketContent{
+    display:none;
+    padding:20px;
+}
+
+.player{
+    background:#f5f5f5;
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.player h3{
+    margin:0 0 8px;
+}
+
+.vs{
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    color:#d40000;
+    margin:15px 0;
+}
